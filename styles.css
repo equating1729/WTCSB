@@ -1,0 +1,8 @@
+* {
+  background-image: linear-gradient(to right, rgb(254, 186, 252), yellow);
+}
+h1 {
+  font-family: Georgia;
+  color: black;
+  text-align: center;
+}

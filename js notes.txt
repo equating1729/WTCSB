@@ -1,0 +1,4 @@
+microsoft->Jscript
+adobe->ction script
+ECMA script ->1961
+TC-39 committee for js/ecma script
