@@ -13,8 +13,18 @@
 //   // console.log(x);
 // }
 // print();
-var user = "Admin";
-function showUser() {
-  console.log("user from file1", user);
-}
-showUser();
+// var user = "Admin";
+// function showUser() {
+//   console.log("user from file1", user);
+// }
+// showUser();
+const user = {
+  name: "aj",
+  age: 22,
+  welcome() {
+    console.log(this);
+  },
+};
+user.welcome();
+user.name = "Ajay";
+user.welcome();
