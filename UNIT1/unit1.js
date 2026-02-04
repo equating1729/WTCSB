@@ -22,9 +22,11 @@ const user = {
   name: "aj",
   age: 22,
   welcome() {
+    console.log(`${this.name} is the username`);
     console.log(this);
   },
 };
-user.welcome();
-user.name = "Ajay";
-user.welcome();
+const f = user.welcome;
+console.log(f());
+// user.name = "Ajay";
+// user.welcome();
