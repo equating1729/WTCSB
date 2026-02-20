@@ -44,4 +44,4 @@ function calculator(op, a, b) {
       return b == 0 ? "Error" : a / b;
   }
 }
-calculator(add);
+calculator(add, 9, 8);
